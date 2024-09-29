@@ -12,7 +12,7 @@ class JenkinsDemoApplicationTests {
     @Test
     void contextLoads() {
         logger.info("tests executing");
-        assert true;
+        assert false;
     }
 
 }
