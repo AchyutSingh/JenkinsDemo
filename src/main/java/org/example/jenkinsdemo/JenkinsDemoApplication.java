@@ -12,11 +12,11 @@ public class JenkinsDemoApplication {
 
     @PostConstruct
     public void init(){
-        logger.info("init");
+        logger.info("init Application");
     }
 
     public static void main(String[] args) {
-        logger.info("main");
+        logger.info("main application");
         SpringApplication.run(JenkinsDemoApplication.class, args);
     }
 
